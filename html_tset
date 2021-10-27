@@ -1,5 +1,5 @@
 <form>
   ID : <input id='userid' type='text'/><br>
   비밀번호 : <input id='pwd' type='password' maxlength='5'/><br>
-  <input type='submit_sh_sh'>
+  <input type='submit_sh'>
 </form>
