@@ -1,7 +1,7 @@
 @api.model
 def default_sequence(self):
-   _logger.warning("sequence%s"%self.env['ir.sequence'].next_by_code('gvm.delivery'))
-   return  self.env['ir.sequence'].next_by_code('gvm.delivery')
+   _logger.warning("sequence%s"%self.env['ir.sequence'].next_by_code('hancom.delivery'))
+   return  self.env['ir.sequence'].next_by_code('hancom.delivery')
 @api.model
 def create(self, vals):
      if vals.get('de_num','New') == 'New':
